@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct State_DataFlow_CombineApp: App {
+    private let user = DataManager.shared.fetch()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(UserManager(user: user))
         }
     }
 }
