@@ -13,28 +13,38 @@ struct RegisterView: View {
     
     var body: some View {
         VStack {
-            HStack {
-                TextField("Enter your name...", text: $name)
-                    .multilineTextAlignment(.center)
-                Text("\(name.count)")
+            VStack {
+                Text("Characters: \(name.count)")
                     .padding(.trailing)
                     .foregroundColor(
-                        name.count < 3 ? Color.red : Color.green
+                        name.count < 3 ? .red : .green
                     )
-                
-            }
-            Button(action: registerUser) {
-                HStack {
+                HStack{
+                    TextField("Enter your name...", text: $name)
+                        .frame(width: 270.0, height: 50.0)
+                        .multilineTextAlignment(.center)
+                        .border(/*@START_MENU_TOKEN@*/Color.gray/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
+                    
+                    
                     Image(systemName: name.count < 3
-                          ? "checkmark.circle"
+                          ? ""
                           : "checkmark.circle.fill"
                     )
-                    Text("Ok")
+                    .foregroundColor(.green)
                 }
+            }
+            Button(action: registerUser) {
+                Text("Timer")
+                    .font(.title)
+                    .fontWeight(.heavy)
+                    .foregroundColor(
+                        name.count < 3 ? .red : .green
+                    )
             }
         }
     }
 }
+
 
 extension RegisterView {
     private func registerUser() {

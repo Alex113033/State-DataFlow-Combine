@@ -17,6 +17,7 @@
 		1F84BC7F290DBA47009E36C9 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F84BC7E290DBA47009E36C9 /* UserData.swift */; };
 		1F84BC81290DBA60009E36C9 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F84BC80290DBA60009E36C9 /* UserManager.swift */; };
 		1F84BC83290DBA7B009E36C9 /* Stoage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F84BC82290DBA7B009E36C9 /* Stoage.swift */; };
+		1F84BC86290DBED1009E36C9 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F84BC85290DBED1009E36C9 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		1F84BC7E290DBA47009E36C9 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		1F84BC80290DBA60009E36C9 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		1F84BC82290DBA7B009E36C9 /* Stoage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stoage.swift; sourceTree = "<group>"; };
+		1F84BC85290DBED1009E36C9 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +68,11 @@
 				1F84BC68290DB9A6009E36C9 /* State_DataFlow_CombineApp.swift */,
 				1F84BC7C290DBA10009E36C9 /* StarterView.swift */,
 				1F84BC6A290DB9A6009E36C9 /* ContentView.swift */,
-				1F84BC78290DB9E4009E36C9 /* TimeCounter.swift */,
 				1F84BC76290DB9C1009E36C9 /* RegisterView.swift */,
+				1F84BC85290DBED1009E36C9 /* ButtonView.swift */,
 				1F84BC84290DBA82009E36C9 /* Manager */,
 				1F84BC6C290DB9A7009E36C9 /* Assets.xcassets */,
+				1F84BC78290DB9E4009E36C9 /* TimeCounter.swift */,
 				1F84BC6E290DB9A7009E36C9 /* Preview Content */,
 			);
 			path = "State,DataFlow,Combine";
@@ -171,6 +174,7 @@
 				1F84BC6B290DB9A6009E36C9 /* ContentView.swift in Sources */,
 				1F84BC69290DB9A6009E36C9 /* State_DataFlow_CombineApp.swift in Sources */,
 				1F84BC79290DB9E4009E36C9 /* TimeCounter.swift in Sources */,
+				1F84BC86290DBED1009E36C9 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
